@@ -1,0 +1,154 @@
+/* Base Reset & Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #334155;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header & Flexbox Nav */
+header {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-content h1 {
+    color: #0f172a;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.header-content p {
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #475569;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+/* Card Containers */
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.card h2 {
+    color: #1e293b;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #f1f5f9;
+}
+
+/* About Section */
+.about-content {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #e2e8f0;
+    max-width: 100%;
+}
+
+/* Skills List */
+.skills-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    color: #475569;
+}
+
+.skills-list li {
+    margin-bottom: 8px;
+}
+
+
+.skills-grid {
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+.skills-header, .skills-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.skills-header {
+    font-weight: 600;
+    color: #0f172a;
+    border-bottom: 2px solid #cbd5e1;
+}
+
+.skills-row {
+    color: #334155;
+}
+
+.col-topic {
+    flex: 1;
+}
+
+.col-exp {
+    flex: 1;
+    text-align: right;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
